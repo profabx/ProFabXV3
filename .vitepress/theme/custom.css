@@ -1,0 +1,19 @@
+:root {
+  --vp-c-brand: rgb(0, 47, 247);
+}
+
+.navbar {
+  transition: background-color 0.3s ease;
+}
+
+.navbar:hover {
+  background-color: rgba(0, 47, 247, 0.1);
+}
+
+.page-enter-active, .page-leave-active {
+  transition: opacity 0.5s;
+}
+
+.page-enter, .page-leave-to {
+  opacity: 0;
+} 
